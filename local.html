@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore o clima do Japão: temperaturas, previsões, histórico, observações JMA e mapas com fontes identificadas.">
+  <meta name="author" content="Miguel Dias Soeiro">
+  <meta name="theme-color" content="#f4f6f3">
+  <title>Local | Clima Japão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+<link rel="stylesheet" href="explore.css"><link rel="stylesheet" href="weather-extras.css"><link rel="stylesheet" href="design.css"><link rel="stylesheet" href="credits.css"><link rel="stylesheet" href="plus.css"></head>
+<body>
+<a class="skip-link" href="#inicio">↓</a>
+  <noscript>Este site precisa de JavaScript para consultar o clima. This site requires JavaScript. このサイトはJavaScriptが必要です。</noscript><header class="topbar">
+    <a class="brand" href="./" aria-label="Clima Japão, voltar para a lista" data-i18n-aria="back"><span class="brand-mark">日</span><span class="brand-title">Clima Japão</span></a>
+    <div class="header-actions"><div class="top-meta"><span class="live-dot"></span><span data-i18n="liveData">Dados meteorológicos em tempo real</span><span class="meta-divider"></span><span id="updated">Carregando...</span></div><label class="language-picker"><span class="sr-only" data-i18n="language">Language</span><select id="language-select" aria-label="Language" data-i18n-aria="language"><option value="pt">Português</option><option value="en">English</option><option value="es">Español</option><option value="ja">日本語</option></select></label></div>
+  </header>
+  <main id="inicio" class="detail-main">
+    <a class="back-button" href="./"><span aria-hidden="true">←</span><span data-i18n="back">Todos os locais</span></a>
+    <div id="detail-loading" class="detail-loading" data-i18n="loadingDetail">Carregando informações do local...</div>
+    <div id="detail-error" class="detail-error" hidden="" data-i18n="detailError">Não foi possível localizar este cartão. Volte à lista e escolha um local disponível.</div>
+    <article id="detail-page" hidden=""></article>
+  </main>
+  <footer><span class="footer-brand">日 Clima Japão</span><span data-i18n="footer">Temperaturas em °C · Horário local do Japão (JST)</span><a href="https://open-meteo.com/" target="_blank" rel="noreferrer" data-i18n="source">Fonte dos dados: Open-Meteo ↗</a><strong class="author-credit"><span data-i18n="author">Autor</span>: Miguel Dias Soeiro</strong></footer>
+  
+
+<script src="translations.js"></script><script src="plus-common.js"></script><script src="app.js"></script><script src="explore.js"></script><script src="jma.js"></script><script src="alerts.js"></script><script src="weather-extras.js"></script><script src="discover-plus.js"></script><script src="history-plus.js"></script><script src="travel-plus.js"></script><script src="credits.js"></script></body></html>

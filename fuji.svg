@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" fill="none" role="img" aria-label="Monte Fuji estilizado ao amanhecer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfeee8"/><stop offset="1" stop-color="#f3f6ee"/></linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#527f71"/><stop offset="1" stop-color="#285c4d"/></linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f7fbf4" stop-opacity=".95"/><stop offset="1" stop-color="#e7f1e9" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b7d3c9" stop-opacity=".7"/><stop offset="1" stop-color="#8fb7aa" stop-opacity=".35"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <circle cx="540" cy="92" r="48" fill="#e5bf78" opacity=".58"/>
+  <circle cx="540" cy="92" r="70" fill="#e5bf78" opacity=".12" filter="url(#blur)"/>
+  <path d="M0 270C94 236 158 247 238 267c89 22 139 15 222-8 91-25 167-19 260 10v91H0z" fill="#c5d9ce" opacity=".6"/>
+  <path d="M108 306 350 65l249 241H108z" fill="url(#mountain)"/>
+  <path d="m350 65 24 38 33-10 33 46 30-2 46 53 35 13 48 103H108z" fill="#204f43" opacity=".22"/>
+  <path d="m350 65 24 38 33-10 22 31-27 19-29-14-35 27-30-8-35 34-42-10z" fill="url(#light)"/>
+  <path d="M154 306c58-17 108-22 157-12 59 12 106 10 165-5 61-16 113-12 174 10v61H154z" fill="url(#water)"/>
+  <path d="M0 333c107-21 189-20 284-3 87 16 173 14 267-4 61-12 113-11 169 1v33H0z" fill="#72a494" opacity=".25"/>
+  <g stroke="#f8fbf5" stroke-linecap="round" opacity=".68">
+    <path d="M84 123h76" stroke-width="6"/><path d="M125 106h92" stroke-width="4"/><path d="M515 180h94" stroke-width="5"/><path d="M566 163h64" stroke-width="3"/>
+  </g>
+  <g stroke="#4d8775" stroke-linecap="round" opacity=".35"><path d="M238 326h82"/><path d="M392 337h120"/><path d="M548 320h58"/></g>
+</svg>
